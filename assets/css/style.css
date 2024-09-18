@@ -30,11 +30,11 @@ header {
 }
 
 .logo {
-    background: url("../images/juliana.jpg");
+    background: url("../images/Juliana2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -44,7 +44,7 @@ header {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #fff;
 
 }
@@ -53,7 +53,7 @@ header {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     color: #fff;
 }
 .list-inline-item:not(:last-child) {
@@ -62,6 +62,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0px;
 }
 
 #nav li {
@@ -88,4 +92,8 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+.menuitem a i {
+    padding-top: 20px;
+    font-size: 26px;
 }
